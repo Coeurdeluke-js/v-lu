@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="V'lu - Un espacio para sentir, escuchar y reconectar con lo esencial. Sesiones individuales, talleres y encuentros grupales para el bienestar emocional." />
+  <title>V'lu | Espacio de conexión emocional</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="logo.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <!-- Preconectar con orígenes externos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header con navegación -->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="logo">
+          <img src="images/logo.svg" alt="V'lu Logo" width="60" height="60" />
+        </div>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </button>
+          <ul class="nav__menu">
+            <li class="nav__item"><a href="#quienes-somos" class="nav__link">Quiénes Somos</a></li>
+            <li class="nav__item"><a href="#valores" class="nav__link">Nuestro Enfoque</a></li>
+            <li class="nav__item"><a href="#actividades" class="nav__link">Ofrecemos</a></li>
+            <li class="nav__item"><a href="#testimonios" class="nav__link">Testimonios</a></li>
+            <li class="nav__item"><a href="#contacto" class="nav__link nav__link--highlight">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">V'lu</h1>
+        <p class="hero__subtitle">Un espacio para sentir, escuchar y reconectar con lo esencial.</p>
+        <a href="#contacto" class="btn btn--primary">Conectar con Nosotros</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- Quiénes somos -->
+    <section id="quienes-somos" class="section">
+      <div class="container">
+        <h2 class="section__title">¿Quiénes somos?</h2>
+        <div class="section__content two-columns">
+          <div class="column">
+            <p>
+              Somos un espacio cálido y amoroso, creado para acompañarte a habitarte con más presencia.  
+              A través del cuerpo, la palabra y el silencio, te invitamos a reconectar con tu esencia.
+            </p>
+            <p>
+              En V'lu creemos que cada persona tiene un ritmo propio, una historia, un sentir. Por eso,  
+              acompañamos desde el respeto, la escucha activa y la intuición.
+            </p>
+          </div>
+          <div class="column image-container">
+            <img src="images/quienes1.jpg" alt="Personas en un espacio íntimo y cálido" class="image--rounded">
+          </div>          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Valores -->
+    <section id="valores" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Nuestro enfoque</h2>
+        <ul class="values-list">
+          <li class="values-item">
+            <span class="values-icon">🌿</span>
+            <div>
+              <h3>Cuerpo presente</h3>
+              <p>Reconectamos con la sabiduría corporal y damos espacio a todas las emociones.</p>
+            </div>
+          </li>
+          <li class="values-item">
+            <span class="values-icon">🌀</span>
+            <div>
+              <h3>Escucha profunda</h3>
+              <p>Creamos un contenedor seguro, libre de juicios donde todo puede ser expresado.</p>
+            </div>
+          </li>
+          <li class="values-item">
+            <span class="values-icon">🔥</span>
+            <div>
+              <h3>Intuición como brújula</h3>
+              <p>Confiamos en la sabiduría interna y en las señales sutiles que nos guían.</p>
+            </div>
+          </li>
+          <li class="values-item">
+            <span class="values-icon">💬</span>
+            <div>
+              <h3>Palabra con sentido</h3>
+              <p>Honramos el poder del lenguaje consciente y la comunicación empática.</p>
+            </div>
+          </li>
+          <li class="values-item">
+            <span class="values-icon">🤲</span>
+            <div>
+              <h3>Encuentros con alma</h3>
+              <p>Valoramos la profundidad, autenticidad y presencia en cada interacción.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Actividades -->
+    <section id="actividades" class="section">
+      <div class="container">
+        <h2 class="section__title">¿Qué ofrecemos?</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon">✨</span>
+              <h3 class="card__title">Sesiones individuales</h3>
+            </div>
+            <p class="card__content">Acompañamiento personalizado para conectar con tu esencia, disponible tanto de forma presencial como online.</p>
+            <a href="#contacto" class="card__link">Conocer más</a>
+          </article>
+          
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon">🌕</span>
+              <h3 class="card__title">Encuentros grupales</h3>
+            </div>
+            <p class="card__content">Espacios colectivos de reconexión emocional donde compartir experiencias y aprender de otros.</p>
+            <a href="#contacto" class="card__link">Conocer más</a>
+          </article>
+          
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon">🎨</span>
+              <h3 class="card__title">Talleres vivenciales</h3>
+            </div>
+            <p class="card__content">Experiencias transformadoras para explorar el sentir a través de distintas prácticas y metodologías.</p>
+            <a href="#contacto" class="card__link">Conocer más</a>
+          </article>
+          
+          <article class="card">
+            <div class="card__header">
+              <span class="card__icon">🌊</span>
+              <h3 class="card__title">Espacios de escucha</h3>
+            </div>
+            <p class="card__content">Momentos dedicados al acompañamiento emocional, donde cada sentimiento tiene cabida y valor.</p>
+            <a href="#contacto" class="card__link">Conocer más</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frases inspiradoras -->
+    <section id="frases" class="section section--quotes">
+      <div class="container">
+        <div class="quotes-slider">
+          <blockquote class="quote">
+            <p>"Habitar el cuerpo es volver al hogar."</p>
+          </blockquote>
+          <blockquote class="quote">
+            <p>"No hay guía más sabia que el propio sentir."</p>
+          </blockquote>
+          <blockquote class="quote">
+            <p>"Todo proceso es sagrado si se lo vive con presencia."</p>
+          </blockquote>
+          <blockquote class="quote">
+            <p>"El silencio también es una forma de escucha."</p>
+          </blockquote>
+        </div>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Lo que dicen quienes nos visitan</h2>
+        <div class="testimonials">
+          <article class="testimonial">
+            <div class="testimonial__content">
+              <p>"Encontré un espacio donde por fin pude llorar, reír y sentir sin miedo. Gracias infinitas por esta experiencia transformadora."</p>
+            </div>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar">
+                <span>CR</span>
+              </div>
+              <cite class="testimonial__author">Clara R.</cite>
+            </footer>
+          </article>
+          
+          <article class="testimonial">
+            <div class="testimonial__content">
+              <p>"Después de cada encuentro, me siento más cerca de mí. V'lu es un abrazo al alma cuando más lo necesitaba en mi vida."</p>
+            </div>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar">
+                <span>MS</span>
+              </div>
+              <cite class="testimonial__author">Majo S.</cite>
+            </footer>
+          </article>
+          
+          <article class="testimonial">
+            <div class="testimonial__content">
+              <p>"Aprendí a escucharme con amor. Algo cambió profundamente en mí desde que llegué a este espacio tan especial."</p>
+            </div>
+            <footer class="testimonial__footer">
+              <div class="testimonial__avatar">
+                <span>LA</span>
+              </div>
+              <cite class="testimonial__author">Lucas A.</cite>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Próximos eventos -->
+    <section id="eventos" class="section">
+      <div class="container">
+        <h2 class="section__title">Próximos eventos</h2>
+        <div class="events">
+          <article class="event">
+            <div class="event__date">
+              <span class="event__day">15</span>
+              <span class="event__month">Mayo</span>
+            </div>
+            <div class="event__details">
+              <h3 class="event__title">Taller: Reconectando con el cuerpo</h3>
+              <p class="event__description">Un espacio para explorar la sabiduría corporal y las emociones a través de prácticas somáticas.</p>
+              <p class="event__meta"><i class="fas fa-map-marker-alt"></i> Presencial | <i class="fas fa-clock"></i> 18:00 - 20:30</p>
+              <a href="#contacto" class="btn btn--small">Reservar</a>
+            </div>
+          </article>
+          
+          <article class="event">
+            <div class="event__date">
+              <span class="event__day">22</span>
+              <span class="event__month">Mayo</span>
+            </div>
+            <div class="event__details">
+              <h3 class="event__title">Círculo de mujeres: Luna creciente</h3>
+              <p class="event__description">Encuentro para compartir, sentir y conectar con nuestra intuición femenina.</p>
+              <p class="event__meta"><i class="fas fa-video"></i> Online | <i class="fas fa-clock"></i> 19:00 - 21:00</p>
+              <a href="#contacto" class="btn btn--small">Reservar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Preguntas Frecuentes</h2>
+        <div class="accordion">
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <h3>¿Necesito tener experiencia previa?</h3>
+              <span class="accordion__icon"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="accordion__content">
+              <p>No, no necesitás experiencia previa. Solo ganas de conectar con vos misma/o y abrirte al proceso. Todos los espacios están diseñados para ser accesibles sin importar tu nivel de experiencia.</p>
+            </div>
+          </div>
+          
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <h3>¿Qué tipo de actividades ofrecen?</h3>
+              <span class="accordion__icon"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="accordion__content">
+              <p>Ofrecemos sesiones individuales, encuentros grupales, talleres vivenciales y espacios de escucha y contención emocional. Todas nuestras actividades están orientadas a la reconexión personal y el bienestar emocional.</p>
+            </div>
+          </div>
+          
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <h3>¿Cómo sé si esto es para mí?</h3>
+              <span class="accordion__icon"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="accordion__content">
+              <p>Si estás buscando reconectar con tu intuición, sentirte más en paz o habitarte con más presencia, probablemente este espacio tenga algo para vos. Ofrecemos una primera consulta gratuita para que puedas conocernos mejor.</p>
+            </div>
+          </div>
+          
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <h3>¿Dónde están ubicadas? ¿Se puede participar a distancia?</h3>
+              <span class="accordion__icon"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="accordion__content">
+              <p>Nos encontramos en Buenos Aires (Palermo), y también ofrecemos actividades online. Las sesiones individuales están disponibles tanto presenciales como virtuales, y muchos talleres tienen su versión en línea.</p>
+            </div>
+          </div>
+          
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <h3>¿Cómo agendo una sesión o me anoto a un taller?</h3>
+              <span class="accordion__icon"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="accordion__content">
+              <p>Podés escribirnos directamente a través del formulario o por WhatsApp/Instagram. Te vamos a guiar paso a paso y responder todas tus consultas para que encuentres lo que mejor se adapte a tus necesidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2 class="section__title">Conectá con nosotras</h2>
+        <div class="two-columns">
+          <div class="column">
+            <p class="lead-text">¿Querés hacer una consulta, agendar una sesión o simplemente charlar?</p>
+            <p>Dejanos tu mensaje y te responderemos a la brevedad. También podés contactarnos directamente por nuestras redes sociales.</p>
+            
+            <div class="contact-info">
+              <p><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+              <p><i class="fas fa-envelope"></i> hola@vlu-espacio.com</p>
+              <p><i class="fab fa-whatsapp"></i> +54 11 5555-5555</p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/vlu.espacio" class="social-link" aria-label="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Facebook">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="YouTube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="telefono">Teléfono (opcional)</label>
+                <input type="tel" id="telefono" name="telefono" />
+              </div>
+              
+              <div class="form-group">
+                <label for="interes">Me interesa</label>
+                <select id="interes" name="interes">
+                  <option value="">Seleccionar...</option>
+                  <option value="sesion">Sesión individual</option>
+                  <option value="taller">Talleres</option>
+                  <option value="grupo">Encuentros grupales</option>
+                  <option value="info">Información general</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+              </div>
+              
+              <div class="form-submit">
+                <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+                <p class="form-message"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section section--newsletter">
+      <div class="container">
+        <h2 class="section__title">Mantente conectad@</h2>
+        <p>Suscríbete a nuestro newsletter y recibe inspiración, eventos y recursos para tu bienestar emocional.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Tu email" required />
+          <button type="submit" class="btn">Suscribirme</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="images/logo.svg" alt="V'lu Logo" width="60" height="60" />
+          <p>V'lu - Un espacio para sentir, escuchar y reconectar con lo esencial.</p>
+        </div>
+        
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="#quienes-somos">Quiénes Somos</a></li>
+              <li><a href="#valores">Nuestro Enfoque</a></li>
+              <li><a href="#actividades">Ofrecemos</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="#">Aviso legal</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="#contacto">Formulario de contacto</a></li>
+              <li><a href="mailto:hola@vlu-espacio.com">hola@vlu-espacio.com</a></li>
+              <li><a href="https://wa.me/5491155555555">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2025 V'lu - Todas las emociones son bienvenidas</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/vlu.espacio" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" aria-label="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
